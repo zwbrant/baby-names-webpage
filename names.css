@@ -1,0 +1,35 @@
+/*CSE 154 HW9
+  Zane Brant
+  ID: 1065974
+  Section AI
+  6-4-2014
+  Styles the "Baby Names" page. Colors the graph bars and 
+  sets their width.*/
+
+body {
+	font-family: Georgia, sans-serif;
+	font-size: 12pt;
+}
+
+/*Quotes in the meanings of names are italic*/
+#meaning q {
+	font-style: italic;
+}
+
+/*Makes element text red. Used for errors and names in the top ten
+of rankings.*/
+.red {
+	color: red;
+}
+
+table div {
+	background-color: #FFBBBB;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	height: 250px;
+	vertical-align: bottom;
+}
